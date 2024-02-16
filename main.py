@@ -42,8 +42,6 @@ if __name__ == '__main__':
     # columns for gpt,original, collab sections
     col1,col2,col3 = st.columns(3)
 
-    print(f"{st.session_state["page"]=}")
-
     with col1:
         st.subheader('GPT-Assisted Section')
         # st.write(colab[0])
