@@ -1,0 +1,15 @@
+Data-to-Text Generation
+
+The creation of linguistically challenging corpora for NLG, exemplified by the efforts in developing the WebNLG Challenge [2], [3], and further advanced by the introduction of a novel framework for creating micro-planning data-to-text corpora as presented in [1]. This framework, applied to DBpedia, enhances dataset diversity for training models capable of handling complex interactions in micro-planning. Alongside, datasets like DART [4], ToTTo [5], WikiTableT [6], and the application of table pre-training techniques such as TAPEX [8] underscore the field's advancement. These datasets and methodologies provide a foundation for exploring complex interactions in micro-planning and enable the training of models to handle diverse inputs and generate semantically accurate texts. The application of pretraining [7], [9], few-shot learning [13], [15]—as exemplified by GPT-3's achievements in [14]—and unsupervised cycles [20], [23], further enriches the landscape, showcasing the potential of these approaches in overcoming the limitations of domain-specific text generation. However, the quest for semantic accuracy and robustness across domains remains a formidable challenge, necessitating ongoing innovation and exploration.
+
+Fact Verification
+
+The development of tools like TabFact [10], which benefits from the advancements in table pre-training approaches like TAPEX [8], and DepChecker [11] marks significant progress in the domain of fact verification, enabling the validation of generated text against semi-structured data and dependencies. These tools represent critical steps toward mitigating the issues of noise and unseen textual predicates, highlighting the importance of accuracy and reliability in text generation processes.
+
+Cycle Training Methods
+
+The exploration of cycle consistency in various domains, including image translation [18], [19], cross-modal transfer [21], [24], and few-shot learning [13], [15], demonstrates the potential of these approaches in enhancing the quality and computational efficiency of output. These methods, including CycleGT [20] and CycleNER [22], and the unsupervised machine translation approach using monolingual corpora only [23], embody the innovative spirit of the field, striving to balance output quality with computational demands.
+
+Evaluation and Applications
+
+The role of automatic metrics such as BLEU [16] and METEOR [17] in tracking progress, alongside practical applications in product description generation [12], comparison [25], and complex entity extraction [26], showcases the real-world impact of advancements in data-to-text generation. These developments not only highlight the field's progress but also emphasize the critical need for human evaluation in assessing coherence and pragmatics, ensuring the generated text meets the highest standards of quality and relevance.

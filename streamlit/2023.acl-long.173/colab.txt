@@ -1,0 +1,19 @@
+Probing and Understanding in Pretrained Language Models (PLMs)
+
+Recent studies have shed light on the capabilities and limitations of Pretrained Language Models (PLMs) in understanding lexical semantics, syntactic structures, and relational knowledge. Explorations into lexical semantics [1] reveal significant insights into how PLMs capture type-level lexical knowledge across diverse languages, emphasizing the universality and language-specific variations in lexical task performance. Concurrently, structural probes [2] have been instrumental in uncovering syntactic knowledge embedded in word representation spaces, demonstrating the implicit encoding of syntax trees within PLMs like ELMo and BERT. Finally, [7] investigates how semantic attributes and their values are captured by PTLMs, adding to the discourse on PLMs' comprehension of semantic attributes, which is relevant to assessing their knowledge of ontology.
+
+The inquiry into PLMs as relational knowledge bases [3], [4], [5] underscores their potential in storing and recalling factual knowledge without explicit fine-tuning, showcasing the versatility of PLMs in unsupervised open-domain question answering and relational knowledge representation. These findings highlight the dynamic utility of PLMs in accessing and leveraging relational and factual knowledge, albeit with variations in learning and recall capabilities across different types of factual knowledge.
+
+Reasoning Abilities of PLMs
+
+ Recent research has closely examined the reasoning capacities of PLMs as they relate to ontological knowledge representation and processing ([6], [11], [12]). [6] analyze how PLMs break down complex inferential tasks into discrete logical steps, while [11] propose methods to strengthen contextual reasoning within model architectures. [12] find that step-by-step prompting enables PLMs to exhibit structured analytical thinking. These studies collectively spotlight sophisticated reasoning abilities within PLMs suitable for navigating ontological relationships. 
+
+In other work, [14] test PLMs on drawing inferences from implicit world knowledge, with promising results, while [15] evaluate performance on formal logic challenges, revealing largely accurate deductive reasoning in areas involving ontological and commonsense reasoning. However, [19] finds that the reasoning of transformer-based models is somewhat shallow. Applying such capacities more broadly across knowledge domains remains an open challenge. Further inspection around the scope and limits of reasoning is warranted.
+
+Incorporating External Knowledge for Enhanced Reasoning
+
+The integration of external knowledge sources [8], [13], [16], [17] offers promising avenues for augmenting the reasoning capabilities of PLMs, suggesting that external information can provide contextual cues that enhance reasoning and prediction accuracy. This integration demonstrates the potential for PLMs to surpass their inherent limitations by leveraging additional knowledge sources, thereby expanding their utility in commonsense reasoning and complex inference tasks.
+
+Challenges and Opportunities in Probing PLMs
+
+Investigations into the limitations of PLMs [9], [10], [18], [20] have provided critical insights into the challenges of assessing and enhancing the linguistic and factual knowledge encoded within these models. The development of probing techniques [9], [10] and the identification of specific areas where PLMs fall short, such as negation handling [18] and sensitivity to lexical cues [20], point to significant opportunities for refining the probing methodologies and improving the models' understanding of nuanced linguistic and factual contexts.
